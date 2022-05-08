@@ -1,0 +1,23 @@
+int main()
+{
+		printf("\n\n Linked List : To create and display Singly Linked List :\n");
+		printf("-------------------------------------------------------------\n");
+	
+	
+	int i=0;
+    char str[20];
+    printf("Enter a string : ");
+    scanf("%[^\n]%*c",str);
+    
+    createNodeList(str);
+    
+    printf("\n Data entered in the list : \n");
+    displayList();
+    
+    reverse(&stnode);
+    
+    printf("\n reverted list : \n");
+    displayList();
+    
+    return(0);
+}
